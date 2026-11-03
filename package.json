@@ -46,6 +46,6 @@
       "uninstallerIcon": "build/icon.ico",
       "language": "1025"
     },
-    "publish": [{ "provider": "github", "owner": "ibrata2", "repo": "IBRA-SAVE" }]
+    "publish": [{ "provider": "github", "owner": "ibrata2", "repo": "IBRA-SAVE", "releaseType": "release" }]
   }
 }

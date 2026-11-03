@@ -41,10 +41,7 @@ npm install
 npm start          # تشغيل
 npm run dist       # بناء ملف التنصيب dist/IBRA-SAVE-Setup-*.exe
 ```
-**إصدار نسخة جديدة:** غيّر `version` في `package.json` ثم:
-```bash
-git tag v1.0.1 && git push --tags
-```
+**إصدار نسخة جديدة:** غيّر `version` في `package.json` (مثلاً 1.0.1) وارفع التعديل على `main`.
 GitHub Actions يبني الـ exe وينشره بـ Releases، والبرامج المنصّبة تتحدث تلقائياً.
 
 ### الهيكل
